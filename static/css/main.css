@@ -49,24 +49,25 @@ code {
 }
 
 .nav-title {
-  margin: 0;
-  padding: 0;
-  font-size: 18px;
-  list-style: none;
+  font-size: 22px;
+  text-align: left;
+  color: #fff;
 }
 
 .nav-logo {
   float: left;
+  padding-right: 25px;
   margin-top: -11px;
   transition: transform 150ms ease-out;
 }
 
 .nav-logo:hover {
-  transform: scale(1.1);
+  transform: scale(1.20);
 }
 
 .nav-logo img {
   display: block;
+  vertical-align: center;
   max-height: 40px;
   width: auto;
   border-radius: 50%;
@@ -76,6 +77,8 @@ code {
   margin: 0;
   padding: 0;
   font-size: 14px;
+  display: inline-block;
+  float: right;
   list-style: none;
 }
 
